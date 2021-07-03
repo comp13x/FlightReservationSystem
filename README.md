@@ -1,4 +1,4 @@
-# FlightReservationSystem
+# Flight Reservation System
 LHIND Final Project
 ============================
 
