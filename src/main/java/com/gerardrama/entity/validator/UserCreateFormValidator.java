@@ -49,7 +49,7 @@ public class UserCreateFormValidator implements Validator {
 //    2. At least one digit
 //    3. At least 8 characters long
     private void validatePasswords(Errors errors, UserCreateForm form) {
-        String upperLowerRegex = "^(?=[^a-z]*[a-z])";
+        String upperLowerRegex = "^(?=[^a-z]*[A-Z])";
         String oneDigitRegex = "^(?=.*?[0-9])";
         String lengthRegex = "^.{8,}$";
 
